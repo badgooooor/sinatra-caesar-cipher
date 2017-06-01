@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>sinatra Caesar Cipher</title>
+	<link href="public/css/bootstrap.css" rel="stylesheet">
+</head>
+<body>
+	<div>
+		<h1>Caesar Cipher</h1>
+		<div>
+			<h3>Enter encrypting sentence.</h3>
+			<form>
+				<p>Sentence :<input type="text" name="words" /></p><br>
+				<p>Offset   :<input type="text" name="offset" /></p><br>
+				<input type="submit" value="encrypt" />
+			</form>
+		</div>
+		<div>
+			<h3>Encrypted word</h3>
+			<p><%= result_text %></p>
+		</div>
+	</div>
+	
+</body>
+</html>
